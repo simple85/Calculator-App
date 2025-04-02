@@ -135,7 +135,7 @@ public class Calculator implements ActionListener{
             if(textField.getText().isEmpty()) {
                 textField.setText("-");
             }
-            else if(textField.getText().length() > 1){
+            else if(textField.getText().length() > 0){
                 //num1 = Double.parseDouble(textField.getText());
                 parseOperation();
                 operator = '-';
